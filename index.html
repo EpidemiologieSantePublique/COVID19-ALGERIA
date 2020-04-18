@@ -1,53 +1,51 @@
 <html>
-  <head></head>
-  <body>
+
+<head></head>
+
+<body>
     <!--Div that will hold the dashboard-->
     <div id="dashboard_div">
-      <div id="slider_div"></div>
-      
-      <div id="categoryPicker_div"></div>
-      <div id="datePicker_div">
-        <input type="date" onchange="alert(this.value)">
-      </div>
-      <div id="chart_div"></div>
-      <div id="table_div"></div> 
+        <div id="slider_div"></div>
+
+        <div id="categoryPicker_div"></div>
+        <div id="datePicker_div">
+            <input type="date" onchange="alert(this.value)">
+        </div>
+        <div id="chart_div"></div>
+        <div id="table_div"></div>
     </div>
-  </body>
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-  <script>
+</body>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script>
     var dashboard = new google.visualization.Dashboard(document.getElementById('dashboard_div'));
-	  var categoryPicker = new google.visualization.ControlWrapper({
-      'controlType': 'CategoryFilter',
-      'containerId': 'categoryPicker_div',
-      'options': {
-        'filterColumnIndex': 0,
-        'ui': {
-          'labelStacking': 'vertical',
-          'label': 'Gender Selection:',
-          'allowTyping': false,
-          'allowMultiple': false
+    var categoryPicker = new google.visualization.ControlWrapper({
+        'controlType': 'CategoryFilter',
+        'containerId': 'categoryPicker_div',
+        'options': {
+            'filterColumnIndex': 0,
+            'ui': {
+                'labelStacking': 'vertical',
+                'label': 'Gender Selection:',
+                'allowTyping': false,
+                'allowMultiple': false
+            }
         }
-	     }
-	  });
+    });
 
     var table = new google.visualization.ChartWrapper({
-      'chartType': 'Table',
-      'containerId': 'table_div',
-      'options': {
-      }
-    });
-	
-	fetch('covid_19_data/daily_cases_by_gender_and_age.csv')
-	.then(response=>response.text())
-	.then(csv => {
-        var data=JSON.parse('[['+csv.trim().replace(/\n/g,'],[')+']]');
-        
-    
-        var data = new google.visualization.arrayToDataTable(data,false);
-    
-        dashboard.bind([categoryPicker], [ table]);
-        dashboard.draw(data);
+        'chartType': 'Table',
+        'containerId': 'table_div',
+        'options': {}
     });
 
-  </script>
+    fetch('covid_19_data/daily_cases_by_gender_and_age.csv')
+        .then(response => response.text())
+        .then(csv => {
+            var data = JSON.parse('[[' + csv.trim().replace(/\n/g, '],[') + ']]');
+            var data = new google.visualization.arrayToDataTable(data, false);
+            dashboard.bind([categoryPicker], [table]);
+            dashboard.draw(data);
+        });
+</script>
+
 </html>
