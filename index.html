@@ -2,10 +2,7 @@
   <head></head>
   <body>Page test</body>
   <script>
-    //fetch('covid_19_data/daily_cases_by_gender_and_age.csv').then(response=>response.text()).then(csv => {console.log(csv)});
-    response = await fetch('covid_19_data/daily_cases_by_gender_and_age.csv');
-    console.log(response);
-    //let csv = await response.text(); // read response body as text
-    //console.log(csv);
+    fetch('covid_19_data/daily_cases_by_gender_and_age.csv').then(response=>response.text()).then(csv => {console.log(csv)});
+
   </script>
 </html>
