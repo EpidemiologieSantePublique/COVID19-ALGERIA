@@ -2,6 +2,6 @@
   <head></head>
   <body>Page test</body>
   <script>
-    fetch('covid_19_data/daily_cases_by_gender_and_age.csv').then(response=>console.log(response));
+    fetch('covid_19_data/daily_cases_by_gender_and_age.csv').then(response=>console.log(response.text()));
   </script>
 </html>
