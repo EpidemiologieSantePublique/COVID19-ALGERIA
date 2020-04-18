@@ -2,7 +2,12 @@
   <head></head>
   <body>Page test</body>
   <script>
-    fetch('covid_19_data/daily_cases_by_gender_and_age.csv').then(response=>response.text()).then(csv => {console.log(csv)});
+    fetch('covid_19_data/daily_cases_by_gender_and_age.csv')
+      .then(response=>response.text())
+      .then(csv => {
+        var josn=csv.replace('\r\n','],[');
+        console.log(json);
+       });
 
   </script>
 </html>
