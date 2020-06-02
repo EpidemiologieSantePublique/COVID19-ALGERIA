@@ -1,5 +1,5 @@
 
-## R script to estimate the Reproduction number
+## R script to estimate the Instantaneous Reproduction Number
 ##
 ## Incidence datasource
 ##   Ministry of health population and hospital reform (coronavirus 2019 page): http://www.sante.gov.dz/coronavirus/coronavirus-2019.html
@@ -29,7 +29,7 @@ data=read.csv(
 
 ##split data by province code
 incidenceData=split(
-	data.frame(dates=as.Date(data$Day),I=data$New.Cases,Province=data$Province),
+	data.frame(dates=as.Date(data$Day),I=data$New.Cases),
 	data$ISO_code
 )
 
