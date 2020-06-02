@@ -4801,56 +4801,6 @@ Day,Province,ISO_code,Cumulative Cases,Cumulative Deaths,Cumulative Recoveries,N
 2020-06-01,Aïn Témouchent,DZ-46,104,NA,5,2,0,NA
 2020-06-01,Ghardaïa,DZ-47,100,NA,6,0,0,NA
 2020-06-01,Relizane,DZ-48,47,NA,3,0,0,NA
-National,DZ,9626,667,6067,113,6,173
-Adrar,DZ-01,129,5,NA,4,0,NA
-Chlef,DZ-02,73,3,NA,0,1,NA
-Laghouat,DZ-03,117,4,NA,2,0,NA
-Oum el Bouaghi,DZ-04,190,6,NA,0,0,NA
-Batna,DZ-05,165,11,NA,3,1,NA
-Béjaïa,DZ-06,297,19,NA,2,0,NA
-Biskra,DZ-07,133,6,NA,0,0,NA
-Béchar,DZ-08,169,1,NA,6,0,NA
-Blida,DZ-09,1176,122,NA,7,1,NA
-Bouira,DZ-10,96,7,NA,4,0,NA
-Tamanghasset,DZ-11,10,1,NA,0,0,NA
-Tébessa,DZ-12,77,4,NA,1,0,NA
-Tlemcen,DZ-13,278,8,NA,0,0,NA
-Tiaret,DZ-14,184,16,NA,3,0,NA
-Tizi Ouzou,DZ-15,168,16,NA,3,0,NA
-Alger,DZ-16,1083,133,NA,9,0,NA
-Djelfa,DZ-17,165,7,NA,5,0,NA
-Jijel,DZ-18,63,5,NA,1,0,NA
-Sétif,DZ-19,604,37,NA,7,1,NA
-Saïda,DZ-20,10,0,NA,0,0,NA
-Skikda,DZ-21,142,7,NA,1,0,NA
-Sidi Bel Abbès,DZ-22,82,12,NA,0,0,NA
-Annaba,DZ-23,191,4,NA,4,0,NA
-Guelma,DZ-24,59,1,NA,0,0,NA
-Constantine,DZ-25,473,21,NA,4,0,NA
-Médéa,DZ-26,223,18,NA,4,0,NA
-Mostaganem,DZ-27,80,4,NA,5,0,NA
-M'Sila,DZ-28,160,14,NA,3,1,NA
-Mascara,DZ-29,141,9,NA,1,0,NA
-Ouargla,DZ-30,272,21,NA,5,0,NA
-Oran,DZ-31,613,21,NA,5,0,NA
-El Bayadh,DZ-32,48,5,NA,0,0,NA
-Illizi,DZ-33,7,0,NA,0,0,NA
-Bordj Bou Arréridj,DZ-34,235,29,NA,2,0,NA
-Boumerdès,DZ-35,134,8,NA,5,0,NA
-El Tarf,DZ-36,35,0,NA,1,0,NA
-Tindouf,DZ-37,14,1,NA,0,0,NA
-Tissemsilt,DZ-38,81,2,NA,0,0,NA
-El Oued,DZ-39,106,11,NA,5,0,NA
-Khenchela,DZ-40,150,3,NA,3,0,NA
-Souk Ahras,DZ-41,72,3,NA,0,1,NA
-Tipaza,DZ-42,340,33,NA,3,0,NA
-Mila,DZ-43,67,5,NA,0,0,NA
-Aïn Defla,DZ-44,402,9,NA,4,0,NA
-Naâma,DZ-45,60,1,NA,0,0,NA
-Aïn Témouchent,DZ-46,104,5,NA,0,0,NA
-Ghardaïa,DZ-47,100,6,NA,0,0,NA
-Relizane,DZ-48,48,3,NA,1,0,NA
-Colonne2,Colonne1,Colonne3,Colonne5,Colonne6,Colonne7,Colonne9,Colonne11,Colonne13
 2020-06-02,National,DZ,9626,667,6067,113,6,173
 2020-06-02,Adrar,DZ-01,129,5,NA,4,0,NA
 2020-06-02,Chlef,DZ-02,73,3,NA,0,1,NA
