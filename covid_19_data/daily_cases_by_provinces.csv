@@ -5047,7 +5047,7 @@ Day,Province,ISO_code,Cumulative Cases,Cumulative Deaths,Cumulative Recoveries,N
 2020-06-06,Ghardaïa,DZ-47,106,6,NA,4,0,NA
 2020-06-06,Relizane,DZ-48,51,3,NA,0,0,NA
 2020-06-07,National,DZ,10154,707,6717,104,9,86
-2020-06-07,Adrar,DZ-1,135,6,NA,0,0,NA
+2020-06-07,Adrar,DZ-01,135,6,NA,0,0,NA
 2020-06-07,Bouira,DZ-10,108,8,NA,3,0,NA
 2020-06-07,Tamanghasset,DZ-11,13,1,NA,0,0,NA
 2020-06-07,Tébessa,DZ-12,87,4,NA,2,0,NA
@@ -5058,7 +5058,7 @@ Day,Province,ISO_code,Cumulative Cases,Cumulative Deaths,Cumulative Recoveries,N
 2020-06-07,Djelfa,DZ-17,176,8,NA,3,0,NA
 2020-06-07,Jijel,DZ-18,66,5,NA,3,0,NA
 2020-06-07,Sétif,DZ-19,652,44,NA,12,2,NA
-2020-06-07,Chlef,DZ-2,73,3,NA,0,0,NA
+2020-06-07,Chlef,DZ-02,73,3,NA,0,0,NA
 2020-06-07,Saïda,DZ-20,12,0,NA,0,0,NA
 2020-06-07,Skikda,DZ-21,148,7,NA,4,0,NA
 2020-06-07,Sidi Bel Abbès,DZ-22,88,13,NA,0,0,NA
@@ -5069,7 +5069,7 @@ Day,Province,ISO_code,Cumulative Cases,Cumulative Deaths,Cumulative Recoveries,N
 2020-06-07,Mostaganem,DZ-27,87,4,NA,0,0,NA
 2020-06-07,M'Sila,DZ-28,171,16,NA,0,0,NA
 2020-06-07,Mascara,DZ-29,150,9,NA,0,0,NA
-2020-06-07,Laghouat,DZ-3,135,4,NA,3,0,NA
+2020-06-07,Laghouat,DZ-03,135,4,NA,3,0,NA
 2020-06-07,Ouargla,DZ-30,297,23,NA,7,1,NA
 2020-06-07,Oran,DZ-31,649,21,NA,10,0,NA
 2020-06-07,El Bayadh,DZ-32,48,5,NA,0,0,NA
@@ -5080,7 +5080,7 @@ Day,Province,ISO_code,Cumulative Cases,Cumulative Deaths,Cumulative Recoveries,N
 2020-06-07,Tindouf,DZ-37,14,1,NA,0,0,NA
 2020-06-07,Tissemsilt,DZ-38,85,2,NA,0,0,NA
 2020-06-07,El Oued,DZ-39,114,13,NA,3,1,NA
-2020-06-07,Oum el Bouaghi,DZ-4,201,6,NA,2,0,NA
+2020-06-07,Oum el Bouaghi,DZ-04,201,6,NA,2,0,NA
 2020-06-07,Khenchela,DZ-40,160,4,NA,2,0,NA
 2020-06-07,Souk Ahras,DZ-41,79,5,NA,2,0,NA
 2020-06-07,Tipaza,DZ-42,352,34,NA,2,0,NA
@@ -5090,11 +5090,11 @@ Day,Province,ISO_code,Cumulative Cases,Cumulative Deaths,Cumulative Recoveries,N
 2020-06-07,Aïn Témouchent,DZ-46,111,5,NA,0,0,NA
 2020-06-07,Ghardaïa,DZ-47,106,7,NA,0,1,NA
 2020-06-07,Relizane,DZ-48,51,3,NA,0,0,NA
-2020-06-07,Batna,DZ-5,180,11,NA,2,0,NA
-2020-06-07,Béjaïa,DZ-6,305,22,NA,0,0,NA
-2020-06-07,Biskra,DZ-7,140,8,NA,2,0,NA
-2020-06-07,Béchar,DZ-8,169,3,NA,0,0,NA
-2020-06-07,Blida,DZ-9,1247,124,NA,17,0,NA
+2020-06-07,Batna,DZ-05,180,11,NA,2,0,NA
+2020-06-07,Béjaïa,DZ-06,305,22,NA,0,0,NA
+2020-06-07,Biskra,DZ-07,140,8,NA,2,0,NA
+2020-06-07,Béchar,DZ-08,169,3,NA,0,0,NA
+2020-06-07,Blida,DZ-09,1247,124,NA,17,0,NA
 2020-06-08,National,DZ,10265,715,6799,111,8,82
 2020-06-08,Adrar,DZ-01,135,6,NA,0,0,NA
 2020-06-08,Chlef,DZ-02,73,3,NA,0,0,NA
