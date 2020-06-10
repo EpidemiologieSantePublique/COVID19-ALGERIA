@@ -1,4 +1,3 @@
-
 ## R script to estimate the Instantaneous Reproduction Number
 ##
 ## Incidence datasource
@@ -37,12 +36,13 @@ incidenceData=split(
 library(EpiEstim)
 
 ##estimate R by province
+##estimation from the first to the last non-zero incidence value
 R_estimates=lapply(incidenceData,function(subData){
-	estimate_R(
-		subData, 
-            method="parametric_si",
-            config = make_config(list(mean_si = 4.2, std_si = 2.9))
-	)
+	try(estimate_R(
+		subData[which.min(subData$I==0):(length(subData$I)-which.min(rev(subData$I)==0)),], 
+		method="parametric_si",
+		config = make_config(list(mean_si = 4.2, std_si = 2.9))
+	),silent=TRUE)
 })
 
 ##plot estimated R
