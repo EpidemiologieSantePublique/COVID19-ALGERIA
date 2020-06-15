@@ -1,4 +1,4 @@
-## R script to estimate the Instantaneous Reproduction Number
+## R script to estimate the Instantaneous Reproduction Number by Province
 ##
 ## Incidence datasource
 ##   Ministry of health population and hospital reform (coronavirus 2019 page): http://www.sante.gov.dz/coronavirus/coronavirus-2019.html
