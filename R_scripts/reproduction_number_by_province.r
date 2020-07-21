@@ -39,7 +39,7 @@ library(EpiEstim)
 ##estimation from the first to the last non-zero incidence value
 R_estimates=lapply(incidenceData,function(subData){
 	try(estimate_R(
-		subData[which.min(subData$I==0):(length(subData$I)-which.min(rev(subData$I)==0)),], 
+		subData[which.min(subData$I==0):(1+length(subData$I)-which.min(rev(subData$I)==0)),], 
 		method="parametric_si",
 		config = make_config(list(mean_si = 4.2, std_si = 2.9))
 	),silent=TRUE)
